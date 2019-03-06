@@ -1,0 +1,24 @@
+{
+  "name": "rdkafka-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts ./mocha.opts index.coffee"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "coffeescript": "^2.3.2",
+    "jsonstream2": "^2.0.1",
+    "node-rdkafka": "^2.5.1",
+    "through2": "^3.0.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10"
+  }
+}
